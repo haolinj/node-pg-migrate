@@ -1,4 +1,5 @@
-# node-pg-migrate
+# A forked project from salsita/node-pg-migrate
+# Make migrations table query compatible with AWS Redshift
 
 [![Dependency Status](https://img.shields.io/david/salsita/node-pg-migrate.svg)](https://david-dm.org/salsita/node-pg-migrate)
 [![devDependency Status](https://img.shields.io/david/dev/salsita/node-pg-migrate.svg)](https://david-dm.org/salsita/node-pg-migrate?type=dev)

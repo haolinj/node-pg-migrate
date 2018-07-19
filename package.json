@@ -1,7 +1,7 @@
 {
-  "name": "node-pg-migrate",
-  "version": "3.7.0",
-  "description": "Postgresql database migration management tool for node.js",
+  "name": "haolinj-node-pg-migrate-redshift",
+  "version": "3.7.1",
+  "description": "Note that this is a fork from https://github.com/salsita/node-pg-migrate and used to support AWS Redshift migration. Postgresql database migration management tool for node.js",
   "author": "Theo Ephraim",
   "contributors": [
     "Jan Doležel <dolezel.jan@gmail.com> (http://www.eithel.net/)",
@@ -86,12 +86,17 @@
     "test": "cross-env NODE_ENV=test mocha --opts ./mocha.opts test",
     "migrate": "babel-node bin/node-pg-migrate",
     "lint": "eslint -c eslintrc.js . bin/*",
-    "lintfix":
-      "npm run lint -- --fix && prettier --write *.json *.md docs/*.md",
+    "lintfix": "npm run lint -- --fix && prettier --write *.json *.md docs/*.md",
     "prepare": "npm run compile"
   },
   "lint-staged": {
-    "*.js": ["npm run lintfix", "git add"],
-    "*.{json,md}": ["prettier --write", "git add"]
+    "*.js": [
+      "npm run lintfix",
+      "git add"
+    ],
+    "*.{json,md}": [
+      "prettier --write",
+      "git add"
+    ]
   }
 }
