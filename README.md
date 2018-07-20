@@ -1,4 +1,4 @@
-# A forked project from salsita/node-pg-migrate
+# node-pg-migrate
 
 [![Dependency Status](https://img.shields.io/david/salsita/node-pg-migrate.svg)](https://david-dm.org/salsita/node-pg-migrate)
 [![devDependency Status](https://img.shields.io/david/dev/salsita/node-pg-migrate.svg)](https://david-dm.org/salsita/node-pg-migrate?type=dev)
